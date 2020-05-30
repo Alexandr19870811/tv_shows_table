@@ -1,4 +1,4 @@
-import { formatArrayOfStrings } from './formatArrayOfStrings'
+import { formatArrayOfStrings } from '../formatArrayOfStrings'
 
 describe("formatArrayOfStrings function", () => {
 

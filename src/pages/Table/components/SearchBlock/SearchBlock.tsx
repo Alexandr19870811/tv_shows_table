@@ -20,6 +20,7 @@ export const SearchBlock = memo<Props>((props) => {
         onChange={props.onChange}
       />
       <Button
+        disabled={!props.value}
         size="large"
         color="primary"
         variant="contained"

@@ -1,7 +1,7 @@
 import {tvShowReducer} from "../tvShowReducer";
 import {REFRESH_TV_SHOWS} from "../actionTypes";
 
-describe("tvShowReducer coverge", () => {
+describe("tvShowReducer coverage", () => {
 
   it("Should refresh shows", () => {
     expect(

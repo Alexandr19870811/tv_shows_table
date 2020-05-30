@@ -1,4 +1,4 @@
-import { refreshTVShows } from "../actions";
+import { refreshTVShows } from "../actionCreators";
 import {REFRESH_TV_SHOWS} from "../actionTypes";
 
 describe("refreshTVShows action", () => {

@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {getTvShows} from "../api/getTvShows";
 import {useDispatch, useSelector} from "react-redux";
 import {shows} from "../../../reduxStore/tvShowsReducer/selectors";
-import {refreshTVShows} from "../../../reduxStore/tvShowsReducer/actions";
+import {refreshTVShows} from "../../../reduxStore/tvShowsReducer/actionCreators";
 
 export const useTable = () => {
   const [value, setValue] = useState('')
